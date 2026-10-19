@@ -8,10 +8,19 @@ date = "2025/10/07"
 liste_date = date.split("/")
 print(f"On est le {liste_date[2]} du {liste_date[1]} ième mois de l'année {liste_date[0]}")
 
-
-# str.join(liste) va créer une str en séparant les éléments passée en paramètre par la str sur laquelle join() est appelée
+# str.join(liste) va créer une str en séparant les éléments passée en paramètre par la str sur laquelle join()
+# est appelée
 liste_mots = ["Bonjour", "les", "amis"]
 phrase = " ".join(liste_mots)
 print(phrase)
 phrase_2 = "AAA".join(liste_mots)
 print(phrase_2)
+
+# Extra: La liste doit contenir des str pour fonctionner
+# Si on a des nombre, il faut les convertir
+liste_nombres = [42, 45, 12, 7, 98]
+liste_nbr_str = "->".join([str(nbr) for nbr in liste_nombres])
+print(liste_nbr_str)
+
+
+

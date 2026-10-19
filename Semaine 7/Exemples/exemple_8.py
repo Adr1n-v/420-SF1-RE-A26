@@ -9,3 +9,10 @@ for lettre in enumerate(voyelles):
 for index, lettre in enumerate(voyelles):
     print(f"La voyelle à l'itération {index} est {lettre}")
 
+# Faire attention, enumerate retourne l'index de l'itération et non de l'élément
+liste_entiers = list(range(10))
+print(liste_entiers)
+
+for index, entier in enumerate(liste_entiers[::2]):
+    print(f"index: {index} entier: {entier}")
+
