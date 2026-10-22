@@ -8,12 +8,13 @@ print(fruits[0])
 print(fruits[0][0])
 
 # Affiche le dernier élément de la liste
-print(fruits[len(fruits) - 1])
+print(fruits[len(fruits)-1])
 # Autre façon... les index négatifs partent de la fin
 print(fruits[-1])
 # Avant-dernier élément
 print(fruits[-2])
 
+print("** Slicing **")
 # On peut retourner une partie de la liste en utilisant l'opérateur d'indexation [:]
 # [debut:fin exclus]
 print(fruits[0:3])

@@ -6,6 +6,7 @@ voyelles = ["a", "e", "i", "o", "u", "y"]
 # Supprime un élément en particulier, la liste sera réindexée après
 del voyelles[2]
 print(voyelles)
+# le "o" est maintenant à l'index 2
 print(voyelles[2])
 
 voyelles_2 = ["a", "e", "i", "o", "u", "y", "a"]
@@ -19,4 +20,9 @@ try:
 except ValueError as ve:
     print("Erreur", ve)
 
+# Il y avait un deuxième
+voyelles_2.remove("a")
+print(voyelles_2)
+# Mais il n'y en avait pas trois
+voyelles_2.remove("a")
 print("Fin du programme")

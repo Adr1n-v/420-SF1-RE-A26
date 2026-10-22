@@ -8,6 +8,10 @@ print()
 for mot in proverbe:
     print(mot, end="->")
 
+print()
+fruits = [["raisin", "papaye", "pomme"], "pamplemousse", "ananas", "citron", "poire", "banane", ["lime", "papaye"]]
 
+for mes_preferes in fruits:
+    print(mes_preferes, end=" ")
 
 

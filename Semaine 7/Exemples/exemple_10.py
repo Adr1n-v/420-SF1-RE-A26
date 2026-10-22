@@ -16,7 +16,7 @@ print(lettres)
 del lettres[1]
 print(lettres)
 
-# on peut utiliser l'opérateur d'indexation pour supprimer une partie de la liste
+# on peut utiliser l'opérateur d'indexation (slicing) pour supprimer une partie de la liste
 del lettres[1:4]
 print(lettres)
 
